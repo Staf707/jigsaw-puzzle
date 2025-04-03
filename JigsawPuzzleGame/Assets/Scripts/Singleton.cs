@@ -14,7 +14,7 @@ namespace Patterns
       {
         if(s_instance == null)
         {
-          s_instance = FindObjectOfType<T>();
+          s_instance = FindAnyObjectByType<T>();
           if(s_instance == null)
           {
             GameObject obj = new GameObject();

@@ -24,7 +24,7 @@ public class BoardGen : MonoBehaviour
   public Transform parentForTiles = null;
 
   // Access to the menu.
-  public Menu menu = null;
+  public Menu menu;
   private List<Rect> regions = new List<Rect>();
   private List<Coroutine> activeCoroutines = new List<Coroutine>();
 
